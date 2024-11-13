@@ -1,0 +1,158 @@
+.bodyQuran {
+  background: #fff2f6;  
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  }
+  
+#myProgress {
+  width: 100%;
+  background-color: #f9dde5;
+  cursor: pointer;
+  height: 7px;
+  border-radius: 6px;
+  }
+  
+#myBar {
+  background: linear-gradient(to right, #9d004c, #ff9595);
+  border-radius: 4px;
+  box-shadow: none;
+  height: 7px;
+  width: 44%;
+  }
+  
+.btn-action {
+  cursor: pointer;
+  padding-top: 10px;
+  width: 30px;
+  }
+  
+.btn-ctn,.infos-ctn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+.infos-ctn {
+  padding-top: 20px;
+  }
+  
+.btn-ctn > div {
+  padding: 2%;
+  margin-top: 10px;
+  margin-bottom: 18px;
+  }
+  
+.infos-ctn > div {
+  margin-bottom: 18px;
+  color: #9d004c;
+  }
+  
+.first-btn {
+  margin-left: 5px;
+  }
+  
+.duration {
+  margin-left: 5px;
+  }
+  
+.title {
+  margin-left: 10px;
+  width: 210px;
+  text-align: center;
+  }
+  
+.player-ctn {
+  border-radius: 15px;
+  width: 90%;
+  padding: 10px;
+  box-shadow: 0 0 10px 0 rgba(130, 0, 81, .2), 0px 40px 40px -25px rgba(130, 0, 81, .5);
+  margin: auto;
+  margin-top: 30px;
+  }
+  
+.playlist-track-ctn {
+  display: flex;
+  background-color: #fcadad;
+  margin-top: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+  
+.playlist-track-ctn > div {
+  margin: 8px;
+  }
+  
+.playlist-info-track {
+  width: 80%;
+  position : relative;
+  left: -12px;
+  }
+  
+.playlist-info-track,
+  .playlist-duration {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  color: #ffffff;
+  font-size: 14px;
+  pointer-events: none;
+  }
+  
+.active-track {
+  background: #ff9595;
+  color: #ffffff !important;
+  }
+  
+.active-track > .playlist-info-track,
+.active-track > .playlist-duration,
+.active-track > .playlist-btn-play {
+  color: #9d004c !important;
+  }
+
+.playlist-btn-play {
+  pointer-events: none;
+  padding-top: 5px;
+  padding-right: 5px;
+  }
+  
+svg {
+  height: 24px;
+  transform: scale(0.80);
+  max-width: 25px;
+  color: #9d004c;
+  }
+  
+img {
+  height: 200px;
+  width: 95%;
+  margin: auto;
+  border-radius: 15px;
+  object-fit:cover;
+  display: flex;
+  align-content: center;
+  object-position: 0% 86%;
+}
+  
+
+/*CSS BUTTON BACK TO HOME */
+.backbutton {
+  font-size: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  padding: 1.2em 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 30px;
+  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+  background-size: 300%;
+  color: #fff;
+  border: none;
+  box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+  transition: background .3s ease;
+}
+
+.backbutton:hover {
+  background-size: 320%;
+  background-position: right center;
+}
